@@ -6,12 +6,12 @@ import React from 'react';
 
 function Footer(){
     return(
-        <Box bg='gray.100' marginTop='50px'>
+        <Box bg='gray.100' marginTop='50px' paddingTop='50px'>
         <Container maxWidth='6xl' borderBottom='1px solid black'>
-        <SimpleGrid columns={6} spacing='10' >
+        <SimpleGrid columns={6} spacingX='20' >
         <Box>
          <Image
-             boxSize='300px'
+             width='400px'
              height='100px'
               src="https://images.ctfassets.net/rvt0uslu5yqp/duhEd1tLbUSQlR9cV7tf4/4efd046b6c8a334c7b771215dcd5528d/Mentimeter_Logotype.png">
          </Image> 
